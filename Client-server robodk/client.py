@@ -7,8 +7,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 serverUrl = 'http://localhost:1234/'
-host_email = 'contprobaexamenpython@outlook.com'
-host_password = 'Python2021'
+host_email = '###@outlook.com'
+host_password = '###'
 
 # set up the SMTP server
 s = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
